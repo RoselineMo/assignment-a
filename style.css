@@ -1,0 +1,41 @@
+/* CSS rules for table.html */
+tr {
+    text-align: center;
+    border-bottom: 0.1em solid #000;
+}
+
+.caption {
+    padding: 0.5em;
+}
+
+table {
+   margin: auto;
+}
+
+td, th, .alphabetsTable {
+    border: 0.1em solid #000;
+    padding: 0.1em;
+    min-width: 10em;
+}
+
+
+/*  CSS rules for contact.html */
+.contactForm {
+    margin: auto;
+    max-width: 20em;
+    padding-top: 1em;
+    font-size: 1.1em;
+}
+
+div, .formTitle {
+    padding: 0.5em 0.5em 0.5em 0;
+    text-align: left;
+}
+
+.username {
+    width: 18.8em;
+}
+
+.useremail {
+    width: 21.5em;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <main class="main" style="text-align: center;">
+        <form action="submit" method="post" class="contactForm">
+            <!-- the form's label -->
+            <fieldset class="contactFormFields">
+                <legend class="formTitle">Contact Me</legend>
+
+            <!-- input field for the user's name -->
+            <div>
+                <label for="name">Your name</label>
+                <input type="text" name="name" 
+                placeholder="John Doe" required
+                class="username">
+            </div>
+                
+
+            <!-- input field for the user's email -->
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="name" 
+                placeholder="johndoe@john.com" required
+                class="useremail">
+            </div>
+                
+            
+            <!-- input field for the user's message -->
+            <div>    
+                <div>
+                    <label for="message">Your message</label><br>
+                </div>
+                <textarea name="message" 
+                placeholder="Your message here" 
+                rows="10" cols="40" required></textarea>
+            </div>
+                
+
+            <!-- input field to select message's priority level -->
+            <div>
+                <label for="priority">Select message priority</label>
+                <select name="priority">
+                    <option value="High">High</option>
+                    <option selected value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+                
+
+            <!-- the submit button-->
+            <div>
+                <label for="submit"></label>
+                <input type="submit" name="submit">
+            </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Back to <a href="/index.html">home</a>.</p>
+      </footer>
+</body>
+
+</html>
